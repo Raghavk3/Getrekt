@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What do you want to do?</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body class="sub-page">
+  <div class="leaf leaf-b"><img src="leaves2.png" alt=""></div>
+  <div class="leaf leaf-c"><img src="leaves3.png" alt=""></div>
+
+  <main class="wrapper activities-wrapper">
+    <div class="small-icon">♡</div>
+    <h2>what do you want to do</h2>
+    <p class="subtitle">Choose as many as you like</p>
+
+    <div class="checklist">
+      <label><input type="checkbox" name="activity" value="Cook"> <span>Cook</span></label>
+      <label><input type="checkbox" name="activity" value="Cuddle"> <span>Cuddle</span></label>
+      <label><input type="checkbox" name="activity" value="Watch a movie"> <span>Watch a movie</span></label>
+      <label><input type="checkbox" name="activity" value="Facemask"> <span>Facemask</span></label>
+      <label id="noneOption" class="none-option"><input type="checkbox" name="activity" value="None"> <span>None</span></label>
+    </div>
+
+    <p id="noneMessage" class="none-message" aria-live="polite"></p>
+    <button id="activityProceed" class="proceed" type="button">Proceed</button>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
